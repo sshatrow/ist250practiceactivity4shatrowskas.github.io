@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+h1 {
+    background-color: #f542e6;
+    color: #b4f527;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Hello,.NewGameAd,.Story {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nvb {
+    background: white;
+}

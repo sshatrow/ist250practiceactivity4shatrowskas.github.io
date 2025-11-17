@@ -1,0 +1,91 @@
+#bdy{
+    background: linear-gradient(silver,black);
+}
+
+#bdy2 {
+    background: linear-gradient(silver,black);
+}
+
+#displayRecs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.album {
+    width: 80px;
+    height: 80px;
+}
+
+
+#displayRecs .album:hover {
+    position: relative;
+    top: 100px;
+    zoom: 2;
+}
+
+#album1 {
+    background-color: red;
+}
+
+#album2 {
+    background-color: blue;
+}
+
+#album3 {
+    background-color: yellow;
+}
+
+#album4 {
+    background: radial-gradient(red,white);
+}
+
+#album5 {
+    background: radial-gradient(gold,maroon);
+}
+
+#t1 {
+    border: solid;
+    width: 25%;
+    background-color: bisque;
+}
+
+#navi2 {
+    color: blueviolet;
+    order: 2;
+    position: relative;
+    top: 50px;
+    justify-content: center;
+    font-size: 18pt;
+}
+
+#auh1 {
+    float: left;
+    position: absolute;
+    order: 1;
+}
+
+#ausp {
+    position: relative;
+    top: 100px;
+    order: 3;
+    font-size: 24pt;
+    
+    background-color: bisque;
+}
+
+#f1 {
+    background: linear-gradient(purple,red);
+     position:absolute;
+    bottom: 0px;
+    width: 100%;
+    
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+body {background-color: blue;
+}
+h1 {
+    color:gold;
+}
+h2{
+    border-style:solid;
+}
+#special {
+    
+    color: red;
+}
+em,i {
+    color: white;
+}
+#thank {
+    transform: rotate(-5deg);
+    text-align: center;
+}
+#summary {
+    color:beige;
+}
+a {
+    color: chartreuse;
+    
+}

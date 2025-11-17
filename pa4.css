@@ -1,0 +1,7 @@
+body {
+    background: radial-gradient(orange,red);
+}
+
+#al {
+    background: linear-gradient(purple,blue);
+}
