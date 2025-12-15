@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <title>Contact Us</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+ <body>
+    <script src="bootstrap.bundle.min.js"></script>
+
+<h1 id="cu">Contact Us</h1>
+    <navbar class="n1">
+        <a href="index.html">Home</a>
+        <a href="page1.html">Ace</a>
+        <a href="page2.html">Vinnie</a>
+        <a href="page3.html">Mark</a>
+        <a href="page4.html">Bruce</a>
+        <a href="page5.html">Tommy</a>
+        <a href="contactus.html">Contact Us</a>
+    </navbar>
+    <p>Have any Kiss memories you would like to share?  Fill out our contact form to send a message.</p>
+
+    <form id="contactUs">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      
+
+      
+       
+       
+    </form>
+
+    <script>
+        function validateContact() {
+            let checkEmail = document.querySelector("#exampleInputEmail1");
+        let checkTextArea = document.querySelector("#exampleFormControlTextarea1");
+
+        let email = toString(checkEmail.value);
+        let textA = toString(checkTextArea.value);
+
+        if (email != null && textA != null) {
+            alert("Success!");
+        } else {
+            alert("Missing info");
+        }
+
+        }
+
+        let checkForValidation = document.querySelector("#contactUs");
+        checkForValidation.addEventListener("submit", validateContact);
+        
+    </script>
+
+  <footer id="f1">2025, Steven Shatrowskas</footer>
+
+    
+ </body>
